@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react'
 import styles from './style.module.scss'
 import images from '../../assets/images'
+import api from '../../assets/api'
 const EForm = () => {
   let form = useRef()
   let nameInput = useRef()
@@ -15,9 +16,7 @@ const EForm = () => {
       return;
     }
 
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbwbILPxzxDVkMv0ayJC7k0_TFs7fcngIWE5ads_u2WylAfxkOadcFUqZr-c-DAqYQDlwQ/exec'
-
-    fetch(scriptURL, { method: 'POST', body: new FormData(form.current)})
+    fetch(api.script, { method: 'POST', body: new FormData(form.current)})
       .then(response => {
         console.log('Success!', response)
         setMessage("");

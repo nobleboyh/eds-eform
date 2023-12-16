@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/eds-eform/static/css/main.0fd3094a.css",
+    "main.js": "/eds-eform/static/js/main.37132d86.js",
+    "static/js/787.9fb7c66e.chunk.js": "/eds-eform/static/js/787.9fb7c66e.chunk.js",
+    "static/media/logo.png": "/eds-eform/static/media/logo.9be751d24a871a1679cb.png",
+    "static/media/logo.webp": "/eds-eform/static/media/logo.9a22057b913f16abc203.webp",
+    "index.html": "/eds-eform/index.html",
+    "main.0fd3094a.css.map": "/eds-eform/static/css/main.0fd3094a.css.map",
+    "main.37132d86.js.map": "/eds-eform/static/js/main.37132d86.js.map",
+    "787.9fb7c66e.chunk.js.map": "/eds-eform/static/js/787.9fb7c66e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fd3094a.css",
+    "static/js/main.37132d86.js"
+  ]
+}
